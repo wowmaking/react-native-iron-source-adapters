@@ -1,0 +1,31 @@
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', "28.0.3")
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 26)
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    maven {
+        url "https://dl.bintray.com/ironsource-mobile/android-adapters"
+    }
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    implementation 'com.ironsource.adapters:vungleadapter:4.3.0@jar'
+    implementation 'com.vungle:publisher-sdk-android:6.5.3'
+}
