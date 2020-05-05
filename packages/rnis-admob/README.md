@@ -1,4 +1,4 @@
-# @wowmkaing/react-native-iron-source-admob
+# @wowmaking/react-native-iron-source-admob
 
 ## Manual setup required
 
