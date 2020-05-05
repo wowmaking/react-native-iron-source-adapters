@@ -1,0 +1,29 @@
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', "28.0.3")
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 26)
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    maven {
+        url  "https://adcolony.bintray.com/AdColony"
+        url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
+    }
+}
+
+dependencies {
+    implementation 'com.ironsource.adapters:adcolonyadapter:4.3.0@jar'
+    implementation 'com.adcolony:sdk:4.1.4'
+}
