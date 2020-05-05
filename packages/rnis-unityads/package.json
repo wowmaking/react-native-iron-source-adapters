@@ -1,0 +1,18 @@
+{
+  "name": "@wowmaking/react-native-iron-source-unityads",
+  "version": "0.0.1",
+  "description": "Iron Source SDK UnityAds adapter for React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "ironsrc",
+    "iron source",
+    "unityads"
+  ],
+  "author": {
+    "name": "Dmitriy Kazlouski",
+    "email": "d.kazlouski@wowmaking.net",
+    "url": "https://github.com/wowmaking"
+  },
+  "license": "MIT"
+}
