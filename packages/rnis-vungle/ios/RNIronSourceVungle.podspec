@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-vungle", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceVungleAdapter", "> 1"
+  s.dependency "IronSourceVungleAdapter", "4.3.0.1"
 
 end
