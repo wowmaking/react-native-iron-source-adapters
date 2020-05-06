@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-facebook", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceFacebookAdapter", "> 1"
+  s.dependency "IronSourceFacebookAdapter", "4.3.14.1"
 
 end
