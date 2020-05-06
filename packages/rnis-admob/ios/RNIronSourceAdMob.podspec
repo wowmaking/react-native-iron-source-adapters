@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-admob", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceAdMobAdapter", "> 1"
+  s.dependency "IronSourceAdMobAdapter", "4.3.10.2"
 
 end
