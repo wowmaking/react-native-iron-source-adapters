@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-tapjoy", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceTapjoyAdapter", "> 1"
+  s.dependency "IronSourceTapjoyAdapter", "4.1.10.1"
 
 end
