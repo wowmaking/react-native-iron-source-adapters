@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-mintegral", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceMintegralAdapter", "> 1"
+  s.dependency "IronSourceMintegralAdapter", "4.3.1.1"
 
 end
