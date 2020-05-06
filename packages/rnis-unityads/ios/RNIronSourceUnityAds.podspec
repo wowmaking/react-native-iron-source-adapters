@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-unityads", tag: "v" + s.version.to_s }
   s.requires_arc = true
 
-  s.dependency "IronSourceUnityAdsAdapter", "> 1"
+  s.dependency "IronSourceUnityAdsAdapter", "4.3.1.1"
 
 end
