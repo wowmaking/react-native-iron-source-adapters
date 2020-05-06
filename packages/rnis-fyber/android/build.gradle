@@ -1,0 +1,31 @@
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', "28.0.3")
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 26)
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    maven {
+        url  'https://fyber.bintray.com/marketplace'
+    }
+}
+
+dependencies {
+    implementation 'com.ironsource.adapters:fyberadapter:4.3.3@jar'
+    implementation 'com.fyber.vamp:core-sdk:7.5.3'
+    implementation 'com.fyber.vamp:video-kit:7.5.3'
+    implementation 'com.fyber.vamp:mraid-kit:7.5.3'
+    implementation 'com.google.code.gson:gson:2.7'
+}
