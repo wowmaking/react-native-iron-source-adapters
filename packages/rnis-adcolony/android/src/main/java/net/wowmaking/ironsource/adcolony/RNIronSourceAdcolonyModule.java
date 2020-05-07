@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package net.wowmaking.ironsource.adcolony;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

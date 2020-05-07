@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package net.wowmaking.ironsource.adcolony;
 
 import java.util.Arrays;
 import java.util.Collections;
