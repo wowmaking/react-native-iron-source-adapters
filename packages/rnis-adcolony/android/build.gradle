@@ -17,13 +17,17 @@ android {
 }
 
 repositories {
+    mavenCentral()
+    maven {
+        url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
+    }
     maven {
         url  "https://adcolony.bintray.com/AdColony"
-        url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:adcolonyadapter:4.3.0@jar'
     implementation 'com.adcolony:sdk:4.1.4'
 }
