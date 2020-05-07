@@ -2,9 +2,9 @@ require "json"
 version = JSON.parse(File.read("../package.json"))["version"]
 
 Pod::Spec.new do |s|
-  s.name         = "RNIronSourceAppLovin"
+  s.name         = "RNIronSourceApplovin"
   s.version      = version
-  s.summary      = "RNIronSourceAppLovin"
+  s.summary      = "RNIronSourceApplovin"
   s.description  = <<-DESC
                   Iron Source SDK AppLovin adapter for React Native
                    DESC
@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-applovin", tag: "v" + s.version.to_s }
+  s.source_files  = "RNIronSourceApplovin/**/*.{h,m}"
   s.requires_arc = true
 
+  s.dependency "React"
   s.dependency "IronSourceAppLovinAdapter", "4.3.10.2"
 
 end

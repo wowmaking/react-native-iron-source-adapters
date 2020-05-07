@@ -1,6 +1,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.wowmaking.ironsource.applovin">
+          package="net.wowmaking.ironsource.applovin">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
