@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-amazon", tag: "v" + s.version.to_s }
+  s.source_files  = "RNIronSourceAmazon/**/*.{h,m}"
   s.requires_arc = true
 
+  s.dependency "React"
   s.dependency "IronSourceAmazonAdapter", "4.3.3.2"
 
 end

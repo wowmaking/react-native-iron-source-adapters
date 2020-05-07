@@ -17,11 +17,13 @@ android {
 }
 
 repositories {
+    mavenCentral()
     maven {
         url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:amazonadapter:4.3.1@jar'
 }
