@@ -1,0 +1,45 @@
+[submodule "react-native-iron-source-adcolony"]
+	path = react-native-iron-source-adcolony
+	url = https://github.com/wowmaking/react-native-iron-source-adcolony
+[submodule "react-native-iron-source-admob"]
+	path = react-native-iron-source-admob
+	url = https://github.com/wowmaking/react-native-iron-source-admob
+[submodule "react-native-iron-source-amazon"]
+	path = react-native-iron-source-amazon
+	url = https://github.com/wowmaking/react-native-iron-source-amazon
+[submodule "react-native-iron-source-applovin"]
+	path = react-native-iron-source-applovin
+	url = https://github.com/wowmaking/react-native-iron-source-applovin
+[submodule "react-native-iron-source-chartboost"]
+	path = react-native-iron-source-chartboost
+	url = https://github.com/wowmaking/react-native-iron-source-chartboost
+[submodule "react-native-iron-source-facebook"]
+	path = react-native-iron-source-facebook
+	url = https://github.com/wowmaking/react-native-iron-source-facebook
+[submodule "react-native-iron-source-fyber"]
+	path = react-native-iron-source-fyber
+	url = https://github.com/wowmaking/react-native-iron-source-fyber
+[submodule "react-native-iron-source-hyprmx"]
+	path = react-native-iron-source-hyprmx
+	url = https://github.com/wowmaking/react-native-iron-source-hyprmx
+[submodule "react-native-iron-source-inmobi"]
+	path = react-native-iron-source-inmobi
+	url = https://github.com/wowmaking/react-native-iron-source-inmobi
+[submodule "react-native-iron-source-maio"]
+	path = react-native-iron-source-maio
+	url = https://github.com/wowmaking/react-native-iron-source-maio
+[submodule "react-native-iron-source-mintegral"]
+	path = react-native-iron-source-mintegral
+	url = https://github.com/wowmaking/react-native-iron-source-mintegral
+[submodule "react-native-iron-source-pangle"]
+	path = react-native-iron-source-pangle
+	url = https://github.com/wowmaking/react-native-iron-source-pangle
+[submodule "react-native-iron-source-tapjoy"]
+	path = react-native-iron-source-tapjoy
+	url = https://github.com/wowmaking/react-native-iron-source-tapjoy
+[submodule "react-native-iron-source-unityads"]
+	path = react-native-iron-source-unityads
+	url = https://github.com/wowmaking/react-native-iron-source-unityads
+[submodule "react-native-iron-source-vungle"]
+	path = react-native-iron-source-vungle
+	url = https://github.com/wowmaking/react-native-iron-source-vungle
