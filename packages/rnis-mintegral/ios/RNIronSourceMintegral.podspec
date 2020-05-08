@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-mintegral", tag: "v" + s.version.to_s }
+  s.source_files  = "RNIronSourceMintegral/**/*.{h,m}"
   s.requires_arc = true
 
+  s.dependency "React"
   s.dependency "IronSourceMintegralAdapter", "4.3.1.1"
 
 end

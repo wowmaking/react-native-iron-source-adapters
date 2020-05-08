@@ -1,0 +1,22 @@
+
+package net.wowmaking.ironsource.mintegral;
+
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.bridge.Callback;
+
+public class RNIronSourceMintegralModule extends ReactContextBaseJavaModule {
+
+  private final ReactApplicationContext reactContext;
+
+  public RNIronSourceMintegralModule(ReactApplicationContext reactContext) {
+    super(reactContext);
+    this.reactContext = reactContext;
+  }
+
+  @Override
+  public String getName() {
+    return "RNIronSourceMintegral";
+  }
+}

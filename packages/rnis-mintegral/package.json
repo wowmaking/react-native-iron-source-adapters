@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-mintegral",
-  "version": "6.16.1",
+  "version": "6.16.1-patch.0",
   "description": "Iron Source SDK Mintegral adapter for React Native",
   "main": "index.js",
   "keywords": [
@@ -14,5 +14,8 @@
     "email": "d.kazlouski@wowmaking.net",
     "url": "https://github.com/wowmaking"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
 }
