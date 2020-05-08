@@ -1,0 +1,32 @@
+{
+  "name": "@wowmaking/react-native-iron-source-adapters",
+  "version": "1.0.0",
+  "description": "IronSource ad network adapters for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowmaking/react-native-iron-source-adapters.git"
+  },
+  "keywords": [
+    "react-native",
+    "ironsrc",
+    "ironsource",
+    "adapter"
+  ],
+  "author": {
+    "name": "Dmitriy Kazlouski",
+    "email": "d.kazlouski@wowmaking.net",
+    "url": "https://github.com/wowmaking"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wowmaking/react-native-iron-source-adapters/issues"
+  },
+  "homepage": "https://github.com/wowmaking/react-native-iron-source-adapters#readme",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  }
+}
