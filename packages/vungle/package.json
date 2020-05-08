@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-vungle",
-  "version": "6.16.1-patch.0",
+  "version": "6.16.1-2",
   "description": "Iron Source SDK Vungle adapter for React Native",
   "main": "index.js",
   "keywords": [
