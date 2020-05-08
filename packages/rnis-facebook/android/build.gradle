@@ -17,12 +17,14 @@ android {
 }
 
 repositories {
+    mavenCentral()
     maven {
         url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:facebookadapter:4.3.13@jar'
     implementation 'com.facebook.android:audience-network-sdk:5.8.0'
 }
