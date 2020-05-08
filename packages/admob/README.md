@@ -11,17 +11,14 @@ Add this to the app’s AndroidManifest as a child of the &lt;application&gt;&lt
            android:value="[ADMOB_APP_ID]"/>
 ```
 
-Make sure you have the following lines inside  allprojects->repositories block
+Add this to your android/build.gradle file inside allproject > repositories
+
 ```
-allprojects {
-    repositories {
-       flatDir {
-           dirs 'libs'
-       }
-       google()
-    }
+maven {
+    url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
 }
 ```
+
 
 ### iOS
 

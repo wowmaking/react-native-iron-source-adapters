@@ -20,6 +20,8 @@ repositories {
     mavenCentral()
     maven {
         url  "https://chartboostmobile.bintray.com/Chartboost"
+    }
+    maven {
         url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
