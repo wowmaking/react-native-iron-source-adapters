@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-pangle", tag: "v" + s.version.to_s }
+  s.source_files  = "RNIronSourcePangle/**/*.{h,m}"
   s.requires_arc = true
 
+  s.dependency "React"
   s.dependency "IronSourcePangleAdapter", "4.1.3.0"
 
 end

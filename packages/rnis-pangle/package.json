@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-pangle",
-  "version": "6.16.1",
+  "version": "6.16.1-3",
   "description": "Iron Source SDK Pangle adapter for React Native",
   "main": "index.js",
   "keywords": [
@@ -14,5 +14,8 @@
     "email": "d.kazlouski@wowmaking.net",
     "url": "https://github.com/wowmaking"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
 }
