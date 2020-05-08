@@ -17,6 +17,7 @@ android {
 }
 
 repositories {
+    mavenCentral()
     jcenter()
     maven {
         url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
@@ -24,6 +25,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:inmobiadapter:4.3.3@jar'
     implementation 'com.inmobi.monetization:inmobi-ads:9.0.4'
     implementation 'com.android.support:customtabs:28.0.0'
