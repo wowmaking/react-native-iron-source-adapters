@@ -1,6 +1,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.wowmaking.ironsource.fyber">
+          package="net.wowmaking.ironsource.fyber">
 
     <application android:networkSecurityConfig="@xml/network_security_config">
     </application>

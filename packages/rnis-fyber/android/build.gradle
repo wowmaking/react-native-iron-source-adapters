@@ -17,12 +17,14 @@ android {
 }
 
 repositories {
+    mavenCentral()
     maven {
         url  'https://fyber.bintray.com/marketplace'
     }
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:fyberadapter:4.3.3@jar'
     implementation 'com.fyber.vamp:core-sdk:7.5.3'
     implementation 'com.fyber.vamp:video-kit:7.5.3'
