@@ -17,11 +17,13 @@ android {
 }
 
 repositories {
+    mavenCentral()
     maven {
         url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.ironsource.adapters:tapjoyadapter:4.1.10@jar'
 }
