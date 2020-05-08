@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-maio", tag: "v" + s.version.to_s }
+  s.source_files  = "RNIronSourceMaio/**/*.{h,m}"
   s.requires_arc = true
 
+  s.dependency "React"
   s.dependency "IronSourceMaioAdapter", "4.1.4.8"
 
 end
