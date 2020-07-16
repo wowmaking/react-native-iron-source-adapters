@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-tapjoy",
-  "version": "6.16.1-3",
+  "version": "6.17.0-alpha.0",
   "description": "Iron Source SDK Tapjoy adapter for React Native",
   "main": "index.js",
   "keywords": [
