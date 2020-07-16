@@ -25,6 +25,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-ads:19.0.1'
-    implementation 'com.ironsource.adapters:admobadapter:4.3.8@jar'
+    implementation 'com.ironsource.sdk:mediationsdk:6.17.0'
+    implementation 'com.ironsource.adapters:admobadapter:4.3.11'
+    implementation 'com.google.android.gms:play-services-ads:19.2.0'
 }

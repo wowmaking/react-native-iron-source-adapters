@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceMintegralAdapter", "4.3.1.1"
+  s.dependency "IronSourceMintegralAdapter", "4.3.3.0"
 
 end

@@ -25,9 +25,9 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.adapters:fyberadapter:4.3.3@jar'
+    implementation 'com.ironsource.sdk:mediationsdk:6.17.0'
+    implementation 'com.ironsource.adapters:fyberadapter:4.3.5'
     implementation 'com.fyber.vamp:core-sdk:7.5.3'
     implementation 'com.fyber.vamp:video-kit:7.5.3'
     implementation 'com.fyber.vamp:mraid-kit:7.5.3'
-    implementation 'com.google.code.gson:gson:2.7'
 }
