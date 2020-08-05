@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-unityads",
-  "version": "6.17.0-alpha.0",
+  "version": "6.17.0",
   "description": "Iron Source SDK UnityAds adapter for React Native",
   "main": "index.js",
   "keywords": [
