@@ -19,13 +19,13 @@ android {
 repositories {
     mavenCentral()
     maven {
-        url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
+        url "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:6.17.0'
-    implementation 'com.ironsource.adapters:applovinadapter:4.3.14'
-    implementation 'com.applovin:applovin-sdk:9.13.0'
+    implementation 'com.ironsource.sdk:mediationsdk:6.18.0'
+    implementation 'com.ironsource.adapters:applovinadapter:4.3.15'
+    implementation 'com.applovin:applovin-sdk:9.13.1'
 }

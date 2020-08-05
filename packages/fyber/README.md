@@ -5,6 +5,6 @@ Add this to your android/build.gradle file inside allproject > repositories
 
 ```
 maven {
-    url  'https://fyber.bintray.com/marketplace'
+    url 'https://fyber.bintray.com/marketplace'
 }
 ```

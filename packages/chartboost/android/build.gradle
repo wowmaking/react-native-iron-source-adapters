@@ -19,17 +19,17 @@ android {
 repositories {
     mavenCentral()
     maven {
-        url  "https://chartboostmobile.bintray.com/Chartboost"
+        url "https://chartboostmobile.bintray.com/Chartboost"
     }
     maven {
-        url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
+        url "http://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:6.17.0'
-    implementation 'com.ironsource.adapters:chartboostadapter:4.3.3'
-    implementation 'com.chartboost:chartboost-sdk:8.0.2'
+    implementation 'com.ironsource.sdk:mediationsdk:6.18.0'
+    implementation 'com.ironsource.adapters:chartboostadapter:4.3.4'
+    implementation 'com.chartboost:chartboost-sdk:8.1.0'
     implementation 'com.google.android.gms:play-services-base:17.2.1'
 }
