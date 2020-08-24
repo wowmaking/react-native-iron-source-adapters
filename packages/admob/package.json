@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-admob",
-  "version": "6.18.0-alpha.0",
+  "version": "7.0.0-alpha.0",
   "description": "Iron Source SDK AdMob adapter for React Native",
   "main": "index.js",
   "keywords": [

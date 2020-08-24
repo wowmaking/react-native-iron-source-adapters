@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-fyber",
-  "version": "6.18.0-alpha.0",
+  "version": "7.0.0-alpha.0",
   "description": "Iron Source SDK Fyber adapter for React Native",
   "main": "index.js",
   "keywords": [
