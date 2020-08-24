@@ -19,13 +19,16 @@ android {
 repositories {
     mavenCentral()
     maven {
-        url "http://dl.bintray.com/ironsource-mobile/android-adapters"
+        url 'https://dl.bintray.com/ironsource-mobile/android-sdk'
+    }
+    maven {
+        url "https://dl.bintray.com/ironsource-mobile/android-adapters"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:6.18.0'
-    implementation 'com.ironsource.adapters:tapjoyadapter:4.1.12'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.0'
+    implementation 'com.ironsource.adapters:tapjoyadapter:4.1.13'
     implementation 'com.tapjoy:tapjoy-android-sdk:12.6.1'
 }

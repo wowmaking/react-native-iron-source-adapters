@@ -19,6 +19,9 @@ android {
 repositories {
     mavenCentral()
     maven {
+        url 'https://dl.bintray.com/ironsource-mobile/android-sdk'
+    }
+    maven {
         url "https://raw.githubusercontent.com/HyprMXMobile/Android-SDKs/master"
     }
     maven {
@@ -28,7 +31,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:6.18.0'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.0'
     implementation 'com.ironsource.adapters:hyprmxadapter:4.1.6'
     implementation 'com.hyprmx.android:HyprMX-SDK:5.1.0'
     implementation 'com.android.support:support-annotations:25.1.0'

@@ -19,14 +19,19 @@ android {
 repositories {
     mavenCentral()
     maven {
-        url "http://dl.bintray.com/ironsource-mobile/android-adapters"
+        url 'https://dl.bintray.com/ironsource-mobile/android-sdk'
+    }
+    maven {
+        url "https://dl.bintray.com/ironsource-mobile/android-adapters"
+    }
+    maven {
         url "https://imobile-maio.github.io/maven"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:6.18.0'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.0'
     implementation 'com.ironsource.adapters:maioadapter:4.1.5'
     implementation 'com.google.android.gms:play-services-ads:19.1.0'
     implementation 'com.maio:android-sdk:1.1.11'
