@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-pangle",
-  "version": "6.18.0-alpha.0",
+  "version": "6.18.0-alpha.1",
   "description": "Iron Source SDK Pangle adapter for React Native",
   "main": "index.js",
   "keywords": [
