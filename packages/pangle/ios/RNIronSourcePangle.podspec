@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourcePangleAdapter", "4.1.5.1"
+  s.dependency "IronSourcePangleAdapter", "4.1.5.2"
 
 end

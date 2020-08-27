@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceMaioAdapter", "4.1.6.3"
+  s.dependency "IronSourceMaioAdapter", "4.1.6.4"
 
 end
