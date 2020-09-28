@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/wowmaking/react-native-iron-source-adapters#readme",
   "dependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.22.1"
   }
 }
