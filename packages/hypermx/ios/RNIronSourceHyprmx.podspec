@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceHyprMXAdapter", "4.1.6.4"
+  s.dependency "IronSourceSDK", "7.0.1.0"
+  s.dependency "IronSourceHyprMXAdapter", "4.1.6.5"
 
 end

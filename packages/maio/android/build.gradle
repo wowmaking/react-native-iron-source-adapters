@@ -31,8 +31,8 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.0.0'
-    implementation 'com.ironsource.adapters:maioadapter:4.1.5'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.1.1'
+    implementation 'com.ironsource.adapters:maioadapter:4.1.6'
     implementation 'com.google.android.gms:play-services-ads:19.1.0'
-    implementation 'com.maio:android-sdk:1.1.11'
+    implementation 'com.maio:android-sdk:1.1.12'
 }

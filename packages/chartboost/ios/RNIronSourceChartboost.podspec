@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceChartboostAdapter", "4.3.2.4"
+  s.dependency "IronSourceSDK", "7.0.1.0"
+  s.dependency "IronSourceChartboostAdapter", "4.3.4.0"
 
 end

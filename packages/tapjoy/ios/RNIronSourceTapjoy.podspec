@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceTapjoyAdapter", "4.1.13.0"
+  s.dependency "IronSourceSDK", "7.0.1.0"
+  s.dependency "IronSourceTapjoyAdapter", "4.1.13.1"
 
 end

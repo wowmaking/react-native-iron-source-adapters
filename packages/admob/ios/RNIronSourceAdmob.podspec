@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceAdMobAdapter", "4.3.15.0"
+  s.dependency "IronSourceSDK", "7.0.1.0"
+  s.dependency "IronSourceAdMobAdapter", "4.3.16.0"
 
 end
