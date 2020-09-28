@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-facebook",
-  "version": "6.18.0-alpha.3",
+  "version": "6.18.0",
   "description": "Iron Source SDK Facebook Audience Network adapter for React Native",
   "main": "index.js",
   "keywords": [

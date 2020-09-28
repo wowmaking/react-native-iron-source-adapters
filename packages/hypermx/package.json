@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-hyprmx",
-  "version": "6.18.0-alpha.2",
+  "version": "6.18.0",
   "description": "Iron Source SDK HyprMX adapter for React Native",
   "main": "index.js",
   "keywords": [

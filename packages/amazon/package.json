@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-amazon",
-  "version": "6.18.0-alpha.2",
+  "version": "6.18.0",
   "description": "Iron Source SDK Amazon adapter for React Native",
   "main": "index.js",
   "keywords": [
