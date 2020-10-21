@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.0.1.1'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.3'
     implementation 'com.ironsource.adapters:pangleadapter:4.1.4'
     implementation 'com.bytedance.sdk:pangle-sdk:3.1.5.3'
 }

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceSDK", "7.0.1.0"
-  s.dependency "IronSourceVungleAdapter", "4.3.5.0"
+  s.dependency "IronSourceSDK", "7.0.3.0"
+  s.dependency "IronSourceVungleAdapter", "4.3.7.1"
 
 end

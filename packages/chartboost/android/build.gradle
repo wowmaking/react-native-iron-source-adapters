@@ -31,7 +31,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.0.1.1'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.3'
     implementation 'com.ironsource.adapters:chartboostadapter:4.3.4'
     implementation 'com.chartboost:chartboost-sdk:8.1.0'
     implementation 'com.google.android.gms:play-services-base:17.2.1'

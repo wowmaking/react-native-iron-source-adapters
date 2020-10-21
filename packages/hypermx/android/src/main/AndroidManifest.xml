@@ -2,6 +2,42 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="net.wowmaking.ironsource.hyprmx">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application>
+        <activity
+                android:name="com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+                android:hardwareAccelerated="true"
+                android:label="HyprMX SDK"
+                android:launchMode="singleTop"
+                android:theme="@style/hyprmx_ActivityTheme" />
+        <activity
+                android:name="com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+                android:theme="@style/hyprmx_RequiredInfoTheme" />
+        <activity
+                android:name="com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+                android:theme="@style/hyprmx_ActivityTheme" />
+        <activity
+                android:name="com.hyprmx.android.sdk.videoplayer.HyprMXVideoPlayerActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+                android:hardwareAccelerated="true"
+                android:theme="@style/hyprmx_ActivityTheme" />
+
+        <provider
+                android:name="com.hyprmx.android.sdk.utility.HyprMXFileProvider"
+                android:authorities="${applicationId}.com.hyprmx.android.hyprmxfileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true" >
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/hyprmx_provider_paths" />
+        </provider>
+
+
+    </application>
 
 </manifest>
