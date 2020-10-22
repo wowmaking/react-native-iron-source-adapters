@@ -8,3 +8,5 @@ maven {
     url "https://dl.bintray.com/ironsource-mobile/android-adapters"
 }
 ```
+
+Requires Gradle version >= 4.0.1. Upgrade by changing version in `android/build.gradle`.
