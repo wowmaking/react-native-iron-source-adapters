@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-facebook",
-  "version": "7.0.3",
+  "version": "7.0.4-alpha.0+7688356",
   "description": "Iron Source SDK Facebook Audience Network adapter for React Native",
   "main": "index.js",
   "keywords": [
@@ -18,5 +18,6 @@
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  }
+  },
+  "gitHead": "768835665c11f21d3bc7d5cab98a36aeb59f78d1"
 }
