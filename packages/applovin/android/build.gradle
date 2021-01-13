@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.0.3'
-    implementation 'com.ironsource.adapters:applovinadapter:4.3.19'
-    implementation 'com.applovin:applovin-sdk:9.14.4'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.4.1'
+    implementation 'com.ironsource.adapters:applovinadapter:4.3.21'
+    implementation 'com.applovin:applovin-sdk:9.14.12'
 }

@@ -1,0 +1,21 @@
+{
+  "name": "@wowmaking/react-native-iron-source-snap",
+  "version": "7.0.3",
+  "description": "Iron Source SDK Snap adapter for React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "ironsrc",
+    "iron source",
+    "snap"
+  ],
+  "author": {
+    "name": "Dmitriy Kazlouski",
+    "email": "d.kazlouski@wowmaking.net",
+    "url": "https://github.com/wowmaking"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}

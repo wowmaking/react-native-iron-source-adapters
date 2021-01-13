@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.0.3'
-    implementation 'com.ironsource.adapters:unityadsadapter:4.3.7'
-    implementation 'com.unity3d.ads:unity-ads:3.5.0'
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.4.1'
+    implementation 'com.ironsource.adapters:unityadsadapter:4.3.9'
+    implementation 'com.unity3d.ads:unity-ads:3.6.0'
 }

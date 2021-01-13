@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-admob", tag: "v" + s.version.to_s }
+  s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-adapters", tag: "v" + s.version.to_s }
   s.source_files  = "RNIronSourceAdmob/**/*.{h,m}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceSDK", "7.0.3.0"
-  s.dependency "IronSourceAdMobAdapter", "4.3.17.1"
+  s.dependency "IronSourceSDK", "7.0.4.0"
+  s.dependency "IronSourceAdMobAdapter", "4.3.18.0"
 
 end

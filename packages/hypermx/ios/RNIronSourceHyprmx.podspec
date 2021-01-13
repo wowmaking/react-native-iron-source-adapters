@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Dmitriy Kazlouski" => "d.kazlouski@wowmaking.net" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-hyprmx", tag: "v" + s.version.to_s }
+  s.source       = { :git => "https://github.com/wowmaking/react-native-iron-source-adapters", tag: "v" + s.version.to_s }
   s.source_files  = "RNIronSourceHyprmx/**/*.{h,m}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "IronSourceSDK", "7.0.3.0"
-  s.dependency "IronSourceHyprMXAdapter", "4.1.7.0"
+  s.dependency "IronSourceSDK", "7.0.4.0"
+  s.dependency "IronSourceHyprMXAdapter", "4.1.8.0"
 
 end
