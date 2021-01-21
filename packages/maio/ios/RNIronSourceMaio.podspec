@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.dependency "React"
   s.dependency "IronSourceSDK", "7.0.4.0"
-  s.dependency "IronSourceMaioAdapter", "4.3.0.0"
+  s.dependency "IronSourceMaioAdapter", "4.1.7.3"
 
 end
