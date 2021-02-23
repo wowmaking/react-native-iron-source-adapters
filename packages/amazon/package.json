@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-iron-source-amazon",
-  "version": "7.0.4-alpha.0+7688356",
+  "version": "7.0.4-alpha.3+e5b4736",
   "description": "Iron Source SDK Amazon adapter for React Native",
   "main": "index.js",
   "keywords": [
@@ -16,7 +16,8 @@
   },
   "license": "MIT",
   "peerDependencies": {
+    "@wowmaking/react-native-iron-source": ">=7.0.4",
     "react-native": "^0.41.2"
   },
-  "gitHead": "768835665c11f21d3bc7d5cab98a36aeb59f78d1"
+  "gitHead": "e5b47369769e7643006be79192cad5e30d669421"
 }
